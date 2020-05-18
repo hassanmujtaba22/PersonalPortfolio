@@ -23,6 +23,12 @@ h1{
     padding: 20vh 5vw !important;
     height: 85vh !important;
 }
+.box h1{
+    font-family: 'Archivo Black', sans-serif;
+    margin: 0 !important;
+    font-size: 60px;
+    letter-spacing: 3px !important;
+}
 @media only screen and (max-width: 850px){
     h1{
         margin: 0 !important;
@@ -215,4 +221,93 @@ h1{
     background-color: #ACCAFF;
     color: #030C1C;
     margin: 0 !important;
+}
+.skill p{
+    margin: 0 !important;
+    font-size: 20px;
+    font-weight: bold !important;
+    letter-spacing: 1;
+    font-weight: normal;
+}
+.skill ul{
+    list-style: none;
+}
+.skillText ul li{
+    font-size: 20px;
+    margin-top: 1vh;
+}
+.skill-icons ul li{
+    display: inline;
+    font-size: 20px;
+    margin: 0px 5px !important;
+}
+.skill-icons img{
+    width: 30px;
+}
+.skill-icons ul li:hover{
+    font-weight: bold;
+}
+@media only screen and (max-width: 1150px){
+    .skillText ul li{
+        font-size: 15px;
+        margin-top: 1vh;
+    }
+    .skill-icons ul li{
+        display: inline;
+        font-size: 15px;
+        margin: 0px 5px !important;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .skill{
+        padding: 15vh 5vw !important;
+    }
+    .skillText ul li{
+        font-size: 20px;
+        margin-top: 1vh;
+    }
+    .skill-icons ul li{
+        display: inline;
+        font-size: 20px;
+        margin: 0px 5px !important;
+    }
+}
+@media only screen and (max-width: 850px){
+    .skill{
+        padding: 10vh 5vw !important;
+    }
+}
+@media only screen and (max-width: 650px){
+    .skill{
+        background-color: #ACCAFF;
+        color: #030C1C;
+        margin: 0 !important;
+        padding: 20vh 5vw !important;
+    }
+    .skillText ul li{
+        font-size: 15px;
+        margin-top: 1vh;
+    }
+    .skill-icons ul li{
+        display: inline;
+        font-size: 15px;
+        margin: 0px 5px !important;
+    }
+}
+@media only screen and (max-width: 450px){
+    .skill{
+        background-color: #ACCAFF;
+        color: #030C1C;
+        margin: 0 !important;
+        padding: 20vh 5vw !important;
+    }
+    .skillText ul li{
+        font-size: 10px;
+        margin-top: 1vh;
+    }
+    .skill-icons ul li{
+        display: inline;
+        font-size: 10px;
+        margin: 0px 0px !important;
+    }
 }
