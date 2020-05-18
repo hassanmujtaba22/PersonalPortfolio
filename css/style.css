@@ -17,88 +17,24 @@ h1{
 }
 .box{
     padding: 20vh 5vw !important;
+    height: 100vh !important;
+}
+.aboutbox{
+    padding: 20vh 5vw !important;
     height: 85vh !important;
 }
 @media only screen and (max-width: 850px){
-    h6{
-        font-size: 25px;
-        font-weight: 900;
-        letter-spacing: 15px;
-        margin: 0 !important;
-        line-height: 1;
-    }
     h1{
         margin: 0 !important;
         font-size: 40px !important;
         letter-spacing: 10px;
-    }
-    h4{
-        margin: 0 !important;
-        font-size: 30px;
-        letter-spacing: 5px;
-    }
-    p{
-        margin: 0 !important;
-        font-size: 20px;
-        letter-spacing: 1;
-        font-weight: normal;
-    }
-    i{
-        margin: 0 !important;
-        font-size: 30px;
-        padding: 5px 3vw 2vh 0;
-        cursor: pointer;
-      }
-    button{
-        font-size: 20px;
-        font-weight: bold !important;
-        transition: ease 1.5s !important;
-        background-color: #ACCAFF !important;
-        border-color: #196AFF !important;
-        color: #030C1C !important;
-        margin-right: 30px;
-        margin-top: 50px;
     }
 }
 @media only screen and (max-width: 750px){
-    h6{
-        font-size: 25px;
-        font-weight: 900;
-        letter-spacing: 15px;
-        margin: 0 !important;
-        line-height: 1;
-    }
-    h1{
-        margin: 0 !important;
-        font-size: 40px !important;
-        letter-spacing: 10px;
-    }
     h4{
         margin: 0 !important;
         font-size: 25px !important;
         letter-spacing: 5px;
-    }
-    p{
-        margin: 0 !important;
-        font-size: 20px;
-        letter-spacing: 1;
-        font-weight: normal;
-    }
-    i{
-        margin: 0 !important;
-        font-size: 30px;
-        padding: 5px 3vw 2vh 0;
-        cursor: pointer;
-      }
-    button{
-        font-size: 20px;
-        font-weight: bold !important;
-        transition: ease 1.5s !important;
-        background-color: #ACCAFF !important;
-        border-color: #196AFF !important;
-        color: #030C1C !important;
-        margin-right: 30px;
-        margin-top: 50px;
     }
 }
 @media only screen and (max-width: 650px){
@@ -223,6 +159,9 @@ h1{
     padding: 5px 3vw 2vh 0;
     cursor: pointer;
   }
+  .social-media-icons i:hover{
+      color: #ACCAFF !important;
+  }
   .social-media-icons a:first-child i{
     color: white;
   }
@@ -270,3 +209,10 @@ h1{
     color: #030C1C !important;
 }
 /* about me end  */
+
+/* skill start  */
+.skill{
+    background-color: #ACCAFF;
+    color: #030C1C;
+    margin: 0 !important;
+}
