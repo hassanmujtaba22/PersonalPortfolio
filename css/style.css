@@ -16,17 +16,89 @@ h1{
     padding: 0 !important;
 }
 .box{
-    padding: 150px 5vw !important;
+    padding: 20vh 5vw !important;
     height: 85vh !important;
 }
 @media only screen and (max-width: 850px){
+    h6{
+        font-size: 25px;
+        font-weight: 900;
+        letter-spacing: 15px;
+        margin: 0 !important;
+        line-height: 1;
+    }
     h1{
+        margin: 0 !important;
         font-size: 40px !important;
+        letter-spacing: 10px;
+    }
+    h4{
+        margin: 0 !important;
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+    p{
+        margin: 0 !important;
+        font-size: 20px;
+        letter-spacing: 1;
+        font-weight: normal;
+    }
+    i{
+        margin: 0 !important;
+        font-size: 30px;
+        padding: 5px 3vw 2vh 0;
+        cursor: pointer;
+      }
+    button{
+        font-size: 20px;
+        font-weight: bold !important;
+        transition: ease 1.5s !important;
+        background-color: #ACCAFF !important;
+        border-color: #196AFF !important;
+        color: #030C1C !important;
+        margin-right: 30px;
+        margin-top: 50px;
     }
 }
 @media only screen and (max-width: 750px){
+    h6{
+        font-size: 25px;
+        font-weight: 900;
+        letter-spacing: 15px;
+        margin: 0 !important;
+        line-height: 1;
+    }
+    h1{
+        margin: 0 !important;
+        font-size: 40px !important;
+        letter-spacing: 10px;
+    }
     h4{
+        margin: 0 !important;
         font-size: 25px !important;
+        letter-spacing: 5px;
+    }
+    p{
+        margin: 0 !important;
+        font-size: 20px;
+        letter-spacing: 1;
+        font-weight: normal;
+    }
+    i{
+        margin: 0 !important;
+        font-size: 30px;
+        padding: 5px 3vw 2vh 0;
+        cursor: pointer;
+      }
+    button{
+        font-size: 20px;
+        font-weight: bold !important;
+        transition: ease 1.5s !important;
+        background-color: #ACCAFF !important;
+        border-color: #196AFF !important;
+        color: #030C1C !important;
+        margin-right: 30px;
+        margin-top: 50px;
     }
 }
 @media only screen and (max-width: 650px){
@@ -69,8 +141,9 @@ h1{
     i{
         font-size: 20px !important;
       }
-    button{
+    .btn{
         font-size: 10px !important;
+        margin-right: 10px !important;
     }
 }
 /* navbar start  */
@@ -196,64 +269,4 @@ h1{
     background-color: #ACCAFF !important;
     color: #030C1C !important;
 }
-/* @media only screen and (max-width: 850px){
-    .aboutme-text h1{
-        font-size: 40px !important;
-    }
-}
-@media only screen and (max-width: 750px){
-    .aboutme-text h4{
-        font-size: 25px;
-    }
-}
-@media only screen and (max-width: 650px){
-    .aboutme-text h6{
-        font-size: 15px;
-    }
-    .aboutme-text h1{
-        font-size: 30px !important;
-    }
-    .aboutme-text h4{
-        font-size: 20px;
-    }
-    .aboutme-text p{
-        font-size: 15px;
-    }
-    .social-media-icons i{
-        font-size: 20px;
-      }
-    .aboutme .buttons .aboutme-btn1{
-        font-size: 10px;
-    }
-    .aboutme .buttons .aboutme-btn2{
-        font-size: 10px;
-    }
-}
-@media only screen and (max-width: 550px){
-    .aboutme-text h6{
-        font-size: 20px;
-        letter-spacing: 0px;
-    }
-    .aboutme-text h1{
-        letter-spacing: 0px;
-        font-size: 30px;
-    }
-    .aboutme-text h4{
-        letter-spacing: 0px;
-        font-size: 20px;
-    }
-    .aboutme-text p{
-        letter-spacing: 0px;
-        font-size: 15px;
-    }
-    .social-media-icons i{
-        font-size: 20px;
-      }
-    .aboutme .buttons .aboutme-btn1{
-        font-size: 10px;
-    }
-    .aboutme .buttons .aboutme-btn2{
-        font-size: 10px;
-    }
-} */
 /* about me end  */
