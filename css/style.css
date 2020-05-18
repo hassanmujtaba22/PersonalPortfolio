@@ -5,23 +5,80 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Yantramanav', sans-serif
 }
 h1{
-    font-family: 'Archivo Black', sans-serif;
-}
-p,pre,ul, li, a{
-    font-family: 'Yantramanav', sans-serif
+    font-family: 'Archivo Black', sans-serif !important;
 }
 .main{
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
 }
-
+.box{
+    padding: 150px 5vw !important;
+    height: 85vh !important;
+}
+@media only screen and (max-width: 850px){
+    h1{
+        font-size: 40px !important;
+    }
+}
+@media only screen and (max-width: 750px){
+    h4{
+        font-size: 25px !important;
+    }
+}
+@media only screen and (max-width: 650px){
+    h6{
+        font-size: 15px !important;
+    }
+    h1{
+        font-size: 30px !important;
+    }
+    h4{
+        font-size: 20px !important;
+    }
+    p{
+        font-size: 15px !important;
+    }
+    i{
+        font-size: 20px !important;
+      }
+    button{
+        font-size: 10px !important;
+    }
+}
+@media only screen and (max-width: 550px){
+    h6{
+        font-size: 20px !important;
+        letter-spacing: 0px !important;
+    }
+    h1{
+        letter-spacing: 0px !important;
+        font-size: 30px !important;
+    }
+    h4{
+        letter-spacing: 0px !important;
+        font-size: 20px !important;
+    }
+    p{
+        letter-spacing: 0px !important;
+        font-size: 15px !important;
+    }
+    i{
+        font-size: 20px !important;
+      }
+    button{
+        font-size: 10px !important;
+    }
+}
+/* navbar start  */
 .navbarCustom{
     background-color: #030C1C !important;
     margin: 0 !important;
     width: 100% !important;
+    height: 15vh;
 }
 #navLogo{
     width: 100px;
@@ -52,5 +109,151 @@ p,pre,ul, li, a{
 @media only screen and (max-width: 1000px){
 .navbar-collapse{
     text-align: center !important;
+    z-index: 1;
+    background-color: #030C1C !important;
 }
 }
+/* navbar end  */
+
+/* about me start  */
+.aboutme{
+    background-color: #030C1C;
+    color: #ACCAFF;
+    margin: 0 !important;
+}
+.aboutme-text h6{
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 15px;
+    margin: 0 !important;
+    line-height: 1;
+}
+.aboutme-text h1{
+    margin: 0 !important;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+.aboutme-text h4{
+    margin: 0 !important;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.aboutme-text p{
+    margin: 0 !important;
+    font-size: 20px;
+    letter-spacing: 1;
+    font-weight: normal;
+}
+.social-media-icons i{
+    margin: 0 !important;
+    font-size: 30px;
+    padding: 5px 3vw 2vh 0;
+    cursor: pointer;
+  }
+  .social-media-icons a:first-child i{
+    color: white;
+  }
+  .social-media-icons a:nth-child(2) i{
+    color: red;
+  }
+  .social-media-icons a:nth-child(3) i{
+    color: blue;
+  }
+  .social-media-icons a:nth-child(4) i{
+    color: rgb(0, 102, 255);
+  }
+  .social-media-icons a:nth-child(5) i{
+    color: aqua;
+  }
+  .social-media-icons a:nth-child(6) i{
+    color: red;
+  }
+.aboutme .buttons .aboutme-btn1{
+    font-size: 20px;
+    font-weight: bold !important;
+    transition: ease 1.5s !important;
+    background-color: #ACCAFF !important;
+    border-color: #196AFF !important;
+    color: #030C1C !important;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.aboutme .buttons .aboutme-btn1:hover{
+    background-color: transparent !important;
+    color: #ACCAFF !important;
+}
+.aboutme .buttons .aboutme-btn2{
+    font-size: 20px;
+    font-weight: bold !important;
+    transition: ease 1.5s !important;
+    background-color: transparent !important;
+    border-color: #196AFF !important;
+    color: #ACCAFF !important;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.aboutme .buttons .aboutme-btn2:hover{
+    background-color: #ACCAFF !important;
+    color: #030C1C !important;
+}
+/* @media only screen and (max-width: 850px){
+    .aboutme-text h1{
+        font-size: 40px !important;
+    }
+}
+@media only screen and (max-width: 750px){
+    .aboutme-text h4{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 650px){
+    .aboutme-text h6{
+        font-size: 15px;
+    }
+    .aboutme-text h1{
+        font-size: 30px !important;
+    }
+    .aboutme-text h4{
+        font-size: 20px;
+    }
+    .aboutme-text p{
+        font-size: 15px;
+    }
+    .social-media-icons i{
+        font-size: 20px;
+      }
+    .aboutme .buttons .aboutme-btn1{
+        font-size: 10px;
+    }
+    .aboutme .buttons .aboutme-btn2{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 550px){
+    .aboutme-text h6{
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+    .aboutme-text h1{
+        letter-spacing: 0px;
+        font-size: 30px;
+    }
+    .aboutme-text h4{
+        letter-spacing: 0px;
+        font-size: 20px;
+    }
+    .aboutme-text p{
+        letter-spacing: 0px;
+        font-size: 15px;
+    }
+    .social-media-icons i{
+        font-size: 20px;
+      }
+    .aboutme .buttons .aboutme-btn1{
+        font-size: 10px;
+    }
+    .aboutme .buttons .aboutme-btn2{
+        font-size: 10px;
+    }
+} */
+/* about me end  */
